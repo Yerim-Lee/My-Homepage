@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="author" content="Erik Terwan">
+
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./css/demo.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="./js/ScrollTrigger.min.js"></script>
+  <script src="./js/Typing.js"></script>
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      /* font-family: "Roboto", sans-serif; */
+      font-family: 'Jeju Myeongjo', serif;
+    }
+  </style>
+  <title>Updated Personal Homepage</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav justify-content-end" style="width: 100%;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="introduction.html">Introduction Video</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="teamproject.html">Teamproject</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="page-margin">
+
+    <div class="block">
+      <div class="main-img">
+        <img width="250px" data-scroll="toggle(.fromBottomIn, .fromBottomOut)" src="./image/KakaoTalk3.jpg">
+      </div>
+      <h2>
+        <a href="index.html" class="typewrite" data-period="2000"
+          data-type='[ "Hi, there!", "I am Yerim.", "Nice to meet you. :)" ]'>
+          <span class="wrap"></span>
+        </a>
+      </h2>
+    </div>
+    <div class="block">
+      <h1 data-scroll="toggle(.fromTopIn, .fromTopOut)">HTML</h1>
+      <img width="200px" data-scroll="toggle(.fromBottomIn, .fromBottomOut)" src="./image/2038971.png">
+      <h2 data-scroll="toggle(.fromBottomIn, .fromBottomOut)">All pages have built an overall framework using html.</h2>
+    </div>
+    <div class="block">
+      <h1 data-scroll="toggle(.fromLeftIn, .fromLeftOut)">CSS Animations</h1>
+      <img width="200px" data-scroll="toggle(.fromBottomIn, .fromBottomOut)" src="./image/2535387.png">
+      <h2 data-scroll="toggle(.fromRightIn, .fromRightOut)">Using css, login forms, scroll triggers, and image slides
+        were
+        created.</h2>
+    </div>
+    <div class="block">
+      <h1 data-scroll="toggle(.scaleDownIn, .scaleDownOut)">JavaScript</h1>
+      <img width="200px" data-scroll="toggle(.fromBottomIn, .fromBottomOut)" src="./image/524541.png">
+      <h2 data-scroll="toggle(.fromBottomIn, .fromBottomOut)">We can use JavaScript to make the web more dynamic. If you
+        are curious about the JavaScript used on this site, click on github below!</h2>
+    </div>
+    <div class="block">
+      <h1>Open Source</h1>
+      <h2>This project is on <a href="https://github.com/Yerim-Lee">GitHub</a>.Click on it!</h2>
+      <h3>Written by <a href="profile.html#profile">Yerim Lee</a></h3>
+    </div>
+  </div>
+
+  <footer class="w3-container w3-pale-red w3-center w3-margin-top">
+    <p>Find me on social media.</p>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p>Copyright 2021. 예림 All rights reserved.</p>
+  </footer>
+
+  <script src="../ScrollTrigger.min.js"></script>
+  <script>
+    window.counter = function () {
+      var span = this.querySelector('span');
+      var current = parseInt(span.textContent);
+
+      span.textContent = current + 1;
+    };
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var trigger = new ScrollTrigger({
+        addHeight: true
+      });
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

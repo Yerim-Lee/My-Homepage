@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+
+
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+.jejumyeongjo * { 
+ font-family: 'Jeju Myeongjo', serif;
+}
+
+html, body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Jeju Myeongjo', serif;
+}
+
+.nav-link {
+	font-size: small;
+}
+
+svg{
+  color: white;
+}
+
+
+.dropdown-item{
+  font-size: 1.2vw;
+}
+
+#main{
+  background-color: #334E70;
+  height: 41vw;
+}
+
+#main .container{
+  height: 100%;
+  padding: 1vw 0.4vw;
+}
+
+h1{
+  padding: 100px 0 100px 0;
+  float: left;
+  font-size: 4.2vw!important;
+  color: #EEE7E0;
+  font-weight: 900;
+  text-shadow: 1px 1px 0px white;
+}
+
+.mySlides {
+  display: none
+}
+
+#main img {
+  vertical-align: middle;
+}
+
+.big-slideshow-container {
+  position: relative;
+  top: 2%;
+  margin: auto;
+  float: right;
+}
+
+.slideshow-container img{
+  width: 36vw;
+  height: 34vw;
+}
+
+.big-dot{
+  text-align: center;
+  padding-top: 2%;
+}
+
+.dot {
+  height: 1.2vw;
+  width: 1.2vw;
+  background-color: #717171;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#main .active, .dot:hover {
+  background-color: #bbb;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4.5s;
+  animation-name: fade;
+  animation-duration: 4.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+/*팀프로젝트 페이지 시작*/
+
+#teamproject{
+  margin-top: 3%;
+}
+
+h2{
+  font-weight: 800;
+  text-align: center;
+  color: #731B47;
+  font-size: 2.8vw!important;
+}
+
+.ex{
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.6vw;
+}
+
+.img-box{
+  text-align: center;
+  padding-bottom: 7%;
+  padding-top: 1%;
+}
+
+.img-box img{
+  width: 57vw;
+}
+
+h3{
+  font-weight: bold!important;
+  font-size: 1.5vw!important;
+  padding-bottom: 1.5%;
+}
+
+.ex2{
+  font-size: 1.4vw;
+  margin-bottom: 0.8%;
+}
+
+.ex3{
+  font-size: 1.4vw;
+}
+
+.big_team_container{
+  margin-top: 7%;
+  font-weight: bold;
+}
+
+#part, #part_atc{
+  font-size: 1.5vw;
+  margin-left: 35%;
+  margin-top: 2.6%;
+}
+
+#part{
+  color: #385723;
+}
+
+#part_atc{
+  line-height: 120%;
+}
+
+#square_1, #square_2, #square_3, #square_4, #square_5{
+  margin-bottom: 0.7vw;
+  height: 13.5vw;
+}
+
+#square_1{
+  background-color: #F6EFE2;
+}
+
+#square_1 p{
+  position: relative;
+  bottom: 13.6vw;
+}
+
+#square_2{
+  background-color: #F0EEE8;
+}
+
+#square_2 p{
+  position: relative;
+  bottom: 12.4vw;
+}
+
+#square_3{
+  background-color: #DDE7E2;
+}
+
+#square_3 p{
+  position: relative;
+  bottom: 11.3vw;
+}
+
+#square_4{
+  background-color: #F9F0E8;
+}
+
+#square_4 p{
+  position: relative;
+  bottom: 11.8vw;
+}
+
+#square_5{
+  background-color: #ECE6E3;
+}
+
+#square_5 p{
+  position: relative;
+  bottom: 11.6vw;
+}
+
+#icon_1{
+  width: 16%;
+  margin-top: 0.5%;
+  margin-left: 8%;
+}
+
+#icon_2{
+  width: 14%;
+  margin-top: 1.1%;
+  margin-left: 9.8%;
+}
+
+#icon_3{
+  width: 11.5%;
+  margin-top: 2.2%;
+  margin-left: 10.5%;
+}
+
+#icon_4{
+  width: 12.7%;
+  margin-left: 10.6%;
+  margin-top: 1.7%;
+}
+
+#icon_5{
+  width: 12.8%;
+  margin-top: 1.4%;
+  margin-left: 9.3%;
+}
+
+footer {
+  /* font-size: 1.1vw;
+  color: gray;
+  padding: 1%;
+  margin-top: 0.8%;
+  text-align: center; */
+}
+
+.page-margin {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+#teamproject .card{
+  margin-bottom: 2%;
+}
+
+.card-header svg{
+  color: black;
+}
+
+
+
+#teamproject .card{
+  height: 220px;
+}
+
+#teamproject .card-text{
+  height: 22px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#teamproject h5{
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+#teamproject .card-text, #teamproject .card-body a{
+  font-size: 1.2vw;
+}
+
+
+@media(min-width: 1550px){
+  #main .container{
+    margin-right: 105px;
+  }
+
+  h1{
+    position: relative;
+    top: 5%;
+    right: 3%;
+  }
+}
+
+@media (max-width: 991.98px){
+  #main{
+    height: 1000px;
+  }
+
+  h1{
+    float: none;
+    text-align: center;
+    font-size: 8vw!important;
+  }
+
+  .big-slideshow-container{
+    float: none;
+    text-align: center;
+  }
+
+  .slideshow-container img{
+    width: 76vw;
+    height: 74vw;
+  }
+
+  .dot {
+    height: 2.7vw;
+    width: 2.7vw;
+  }
+
+  #teamproject{
+    margin-top: 7%;
+  }
+
+  h2{
+    font-size: 7vw!important;
+  }
+
+  .img-box img{
+    width: 80vw;
+  }
+
+  h3{
+    font-size: 3vw!important;
+  }
+
+  .ex2, .ex3{
+    font-size: 3vw;
+  }
+
+  #part, #part_atc{
+    font-size: 2.7vw;
+  }
+
+  #square_1, #square_2, #square_3, #square_4, #square_5{
+    margin-bottom: 0.7vw;
+    height: 22vw;
+  }
+  
+  #square_1 p{
+    position: relative;
+    top: -18vw;
+    left: -3vw;
+  }
+
+  #square_2 p{
+    position: relative;
+    top: -16vw;
+    left: -2vw;
+  }
+  
+  #square_3 p{
+    position: relative;
+    top: -14.6vw;
+    left: -2vw;
+  }
+  
+  #square_4 p{
+    position: relative;
+    top: -15.2vw;
+    left: -2vw;
+  }
+  
+  #square_5 p{
+    position: relative;
+    top: -15vw;
+    left: -2vw;
+  }
+  
+  #icon_1{
+    width: 17vw;
+    margin-top: 2.6vw;
+    margin-left: 8%;
+  }
+  
+  #icon_2{
+    width: 14vw;
+    margin-top: 3.2vw;
+    margin-left: 9.8%;
+  }
+  
+  #icon_3{
+    width: 11.5vw;
+    margin-top: 4.5vw;
+    margin-left: 10.5%;
+  }
+  
+  #icon_4{
+    width: 12.7vw;
+    margin-left: 10.6%;
+    margin-top: 4.1vw;
+  }
+  
+  #icon_5{
+    width: 12.8vw;
+    margin-top: 3.8vw;
+    margin-left: 9.3%;
+  }
+
+}
